@@ -9,6 +9,7 @@ import Screen1d from './src/components/screen1d';
 import Screen1e from './src/components/screen1e';
 import screen2a from './src/components/screen2a';
 import Screen2a from './src/components/screen2a';
+import ScreenXMEye from './src/components/screenXMEye';
 export default function App() {
   return (
     <View style={styles.container}>
@@ -18,7 +19,9 @@ export default function App() {
       {/* <Screen1c/> */}
       {/* <Screen1d/> */}
       {/* <Screen1e/> */}
-      <Screen2a/>
+      {/* <Screen2a/> */}
+      <ScreenXMEye/>
+
     </View>
   );
 }
